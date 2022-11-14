@@ -1,6 +1,8 @@
-# Alexandre Cabanel website
-![Website-photo](https://user-images.githubusercontent.com/108842368/199591670-c70aee3e-b102-4d7e-b85e-ec1eb19cfb24.png)
-> O website possui como objetivo levar o conhecimento. O conteúdo é sobre o pintor Alexandre Cabanel, com sua biografia, acompanhada de suas artes mais famosas.
+<h1 align= center> Alexandre Cabanel website </h1> 
+  
+![Captura de tela de 2022-11-02 17-02-13](https://user-images.githubusercontent.com/108842368/201744187-02392fbb-1517-4651-abc2-e564b8a9a23f.png)
+
+> O website possui como objetivo levar o conhecimento. O conteúdo é sobre o pintor Alexandre Cabanel, com sua biografia, acompanhada de suas artes mais famosas
 
 ### Ajustes e melhorias
 
@@ -9,7 +11,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Responsividade
 - [x] Menu mobile
 - [x] Menu funcional
-- [ ] Links funcionais
+- [ ] Website com links funcionais
 - [ ] Efeitos de transição
 
 ## 💻 Dispositivos compatíveis
