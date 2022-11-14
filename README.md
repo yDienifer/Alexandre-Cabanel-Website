@@ -9,6 +9,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Responsividade
 - [x] Menu mobile
 - [x] Menu funcional
+- [ ] Links funcionais
 - [ ] Efeitos de transição
 
 ## 💻 Dispositivos compatíveis
