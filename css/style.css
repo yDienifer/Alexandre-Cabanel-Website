@@ -1,0 +1,297 @@
+/* Tipografia */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans&family=Raleway:wght@500&family=Roboto:wght@300&display=swap");
+
+@font-face {
+  font-family: "Gallient";
+  src: url("/home/dienifersiqueira/Alexandre Cabanel/fonts/Gallient.ttf");
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Ardela";
+  src: url("/home/dienifersiqueira/Alexandre Cabanel/fonts/ardela-edge-x03-light.ttf");
+}
+
+@font-face {
+  font-family: "Walkway";
+  src: url("/home/dienifersiqueira/Alexandre Cabanel/fonts/Walkway Bold.ttf");
+}
+
+@font-face {
+  font-family: "EFCO Brookshire Regular";
+  src: url("/home/dienifersiqueira/Alexandre Cabanel/fonts/EFCO Brookshire Regular.ttf");
+}
+
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@500&family=Roboto:wght@300&display=swap");
+
+/* Body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-image: url("/home/dienifersiqueira/Alexandre Cabanel/img/fallen-angel.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow-x: hidden;
+}
+
+/* Responsividade */
+@media (max-width: 1140px) {
+  body {
+    background-size: 1220px;
+    background-position: 20% 0;
+    backdrop-filter: hue-rotate(-0.09turn);
+  }
+  .introduction {
+    margin-top: 10px;
+  }
+  .introduction h1 {
+    text-align: center;
+  }
+  #read-more-btn {
+    margin: 50px 0 0 -9.9%;
+    z-index: 2;
+  }
+  #background-biography {
+    position: relative;
+    top: -240px;
+    filter: hue-rotate(-0.09turn);
+  }
+  .biography {
+    position: relative;
+    top: -290px;
+  }
+  #background-impactful-arts {
+    display: none;
+  }
+  .Impactful-arts {
+    position: relative;
+    top: -395px;
+  }
+  .Impactful-arts h1 {
+    padding-bottom: 370px;
+  }
+  .arts {
+    position: relative;
+    top: -260px;
+  }
+  .art-options {
+    position: relative;
+    top: -245px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+  }
+  #background-arts {
+    position: relative;
+    top: -75px;
+  }
+}
+
+/* Content */
+main {
+  margin-top: -2%;
+}
+
+/* Introduction */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h1 {
+  font-size: 4.5em;
+  margin: 170px 20px 0 0;
+  font-family: "Gallient";
+  color: rgb(0, 174, 255);
+  mix-blend-mode: hard-light;
+}
+
+.introduction p {
+  position: relative;
+  top: -210px;
+  text-align: left;
+  margin: 220px 0 0 10px;
+  max-width: 420px;
+  min-width: 150px;
+  color: aliceblue;
+}
+
+/* Read more button + effect hover */
+.read-more-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#read-more-btn {
+  position: relative;
+  top: -160px;
+  left: 46%;
+  padding: 13px 0 13px 22px;
+  width: 125px;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.767);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+#read-more-btn:hover {
+  width: 150px;
+}
+
+#read-more-btn i {
+  position: relative;
+  left: 5px;
+  top: 2px;
+  transform: translateX(-50%);
+  transition: 0.6s;
+  opacity: 0;
+}
+
+#read-more-btn:hover i {
+  position: relative;
+  left: 20px;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Page content - Biography */
+.biography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+#background-biography {
+  margin-top: 200px;
+  opacity: 0.7;
+}
+
+.biography h1 {
+  position: relative;
+  top: -650px;
+  text-align: center;
+  font-family: "Gallient", sans-serif;
+}
+
+.biography p {
+  position: relative;
+  top: -590px;
+  text-indent: 10px;
+  width: 90%;
+  max-width: 580px;
+  min-width: 160px;
+  columns: 2;
+}
+
+/* Page content - The representative of Neoclassicism */
+.Impactful-arts {
+  margin-top: -270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Impactful-arts h1 {
+  font-family: "Gallient";
+  padding-bottom: 20px;
+}
+
+.Impactful-arts p {
+  width: 90%;
+  max-width: 580px;
+  min-width: 160px;
+}
+
+/* arts */
+.arts {
+  margin-top: -30px;
+  padding-bottom: 300px;
+}
+
+.arts img {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.arts h1 {
+  margin-top: 20px;
+  font-family: "Gallient";
+  font-size: 3.5em;
+}
+
+.arts p {
+  width: 90%;
+  max-width: 580px;
+  min-width: 160px;
+}
+
+.arts h1,
+.arts p {
+  padding: 10px;
+}
+
+/* arts - slider */
+.art-options h3 {
+  position: relative;
+  top: 220px;
+  padding-left: 10px;
+  font-family: "Gallient";
+  font-size: 1.3em;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.6s;
+  z-index: 2;
+}
+
+.art-options h3:hover {
+  color: rgb(0, 132, 255);
+  opacity: 1;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f0f;
+  width: 100%;
+}
+
+footer #description {
+  padding-top: 20px;
+}
+
+footer #logo {
+  padding-top: 30px;
+  font-size: 2em;
+  font-family: "EFCO Brookshire Regular";
+}
+
+footer img {
+  display: inline-block;
+  width: 35px;
+  padding: 25px 7px 30px;
+}

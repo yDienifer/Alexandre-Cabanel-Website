@@ -1,0 +1,84 @@
+/* Header - logo */
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+header a
+{
+    position: relative;
+    top: 13px;
+    font-family: 'EFCO Brookshire Regular';
+    font-size: 1.5em;
+}
+
+/* Nav responsive*/
+.navbar-responsive
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Navbar - left side */
+#left 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: -10px;
+}
+
+
+/* Left and Right */
+#left a, #right a
+{
+    padding: 25px;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+#left a:hover
+{
+    opacity: 1;
+}
+
+
+/* Navbar - right side */
+.btn-login-signup
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#signup
+{
+    border: 2px solid white;
+    padding: 13px;
+    margin: -14px 28px;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+#login
+{
+    padding-right: 19px;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+
+/* Effect hover */
+#signup:hover
+{
+    opacity: 1;
+}
+
+#login:hover
+{
+    opacity: 1;
+}
