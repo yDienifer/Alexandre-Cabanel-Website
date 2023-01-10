@@ -12,4 +12,3 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Menu mobile
 - [x] Menu funcional
 - [ ] Website com links funcionais
-- [ ] Efeitos de transição
